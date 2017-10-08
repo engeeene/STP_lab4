@@ -25,6 +25,12 @@ public class ArrayTest {
     }
 
     @Test
+    public void testMinElement() {
+        int min = arr.minElement();
+        Assert.assertEquals("Min test", -65, min);
+    }
+
+    @Test
     public void testMinModuleElement() {
         int min = arr.minModuleElement();
         Assert.assertEquals("MinModule test", 0, min);
